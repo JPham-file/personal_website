@@ -1,2 +1,2 @@
-# CSCE-331-Project1
+# CSCE 412 CI/CD
 Personal Website
