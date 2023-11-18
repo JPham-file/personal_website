@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@600&family=Roboto+Mono:wght@400;500&display=swap");
+
+.header {
+  transform: rotate(-90deg);
+  position: absolute;
+  margin-top: 240px;
+  margin-left: 200px;
+
+  font-size: 25px;
+  font-family: "Roboto Mono", monospace;
+  color: darkslategrey;
+}
+
+.paragraph {
+  display: block;
+  border: 1px solid black;
+  
+  font-family: "JetBrains Mono", monospace;
+  font-size: 15px;
+  
+  padding: 10px;
+  margin-left: 700px;
+  margin-right: 700px;
+  margin-top: 100px;
+}
+

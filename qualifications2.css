@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@600&family=Roboto+Mono:wght@400;500&display=swap");
+
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: black;
+}
+
+
+.header {
+  transform: rotate(-90deg);
+  position: absolute;
+  margin-top: 240px;
+  margin-left: -180px;
+
+  font-size: 25px;
+  font-family: "Roboto Mono", monospace;
+  color: rgb(255, 255, 255);
+}
+
+.tech_skills {
+  position: relative;
+  margin-left: 120px;
+  padding-top: 20px;
+  display: flex;
+  font-size: 20px;
+  font-family: "Roboto Mono", monospace;
+  color: rgb(255, 255, 255);
+}
+
+.about_para {
+  right: 100px;
+  color: whitesmoke;
+  padding: 10px;
+  border: 1px solid rgb(255, 255, 255);
+  font-family: "JetBrains Mono", monospace;
+  font-size: 15px;
+}
+
+.para_space {
+  position: relative;
+  left: 100px;
+}
+
+
+.pdf {
+  display: flex;
+  margin-left: 15%;
+  margin-top: 20px;
+}
+
+.download {
+  color: rgb(255, 255, 255);
+  border: 4px solid #383846;
+  border: none;
+  text-align: center;
+  display: inline;
+  font-size: 13px;
+  cursor: pointer;
+  transition-duration: 0.15s;
+  text-decoration: none;
+
+  color: rgb(255, 255, 255);
+  font-family: "Roboto Mono", monospace;
+}
+
+.ul_styles {
+  list-style-type: none;
+  margin-top: 10px;
+  margin-left: 100px;
+  margin-right: 100px;
+
+
+  padding: 0px;
+  overflow: hidden;
+
+  border: 1px solid rgb(255, 255, 255);
+  outline-color: rgb(255, 255, 255);
+}
+
+
+.nav_bar {
+  position: absolute;
+  transform: rotate(-90deg);
+  top: 420px;
+  left: -450px;
+}
+
+.li1 {
+  float: inline-start;
+  display: inline;
+  font-family: "JetBrains Mono", monospace;
+}
+
+.li1 a {
+  text-decoration: none;
+  display: inline-block;
+  color: rgb(255, 255, 255);
+  padding: 10px;
+  padding-top: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+
+  border-right: 1px solid rgb(255, 255, 255);
+}
+
+.li1 a:hover:not(.active) {
+  transition:all 0.15s ease-in-out;
+}
+
+.active {
+  background-color: crimson;
+}
+
+.dark_mode_btn {
+  font-family: "Roboto Mono", monospace;
+  background-color: #b94949;
+  color: black;
+  font-size: 13px;
+  
+  display: block;
+  border: 4px solid #383846;
+  border: none;
+  padding: 12px;
+  text-align: center;
+  float: right;
+  
+  cursor: pointer;
+  transition-duration: 0.15s;
+}
